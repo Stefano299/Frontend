@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <title>New York Post</title>
 </head>  
@@ -84,27 +84,36 @@
             <article class="main-story">
                 <h2>LOREM IPSUM</h2>
                 <img src="https://placehold.co/744x496" alt="Main Story Image">
-                <h3 class="story-title">Lorem ipsum ipsum psum psum ipsu</h3>
-                <p class="story-excerpt">Donec finibus odio a erat eleifend, eget tincidunt libero pretium. Curabitur iaculis fermentum tristique. Maecenas eleifend tortor dui, facilisis cursus quam lacinia eget.</p>
+                <h3 class="story-title">Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
             </article>
 
-            <section class="first-row">
+            <section class="two-titles">
+                <article class="title-item">
+                    <span class="red-arrow"> &gt;</span><h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4>
+                </article>
+                <article class="title-item">
+                    <span class="red-arrow"> &gt;</span><h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4>
+                </article>
+            </section>
+
+            <hr class="divider-light">
+
+            <section class="three-col-layout">
                 <article>
                     <img src="https://placehold.co/234x156" alt="First article">
-                    <h2>Lorem ipsum ipsum psum psum ipsu</h2>
-                    <p>Donec finibus odio a erat eleifend, eget tincidunt libero pretium. Curabitur iaculis fermentum tristique. Maecenas eleifend tortor dui, facilisis cursus quam lacinia eget.</p>
+                    <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
                 </article>
                 <div class="vertical-divider"></div>
                 <article>
                     <img src="https://placehold.co/234x156" alt="Second article">
-                    <h2>Lorem ipsum ipsum psum psum ipsu</h2>
-                    <p>Donec finibus odio a erat eleifend, eget tincidunt libero pretium. Curabitur iaculis fermentum tristique. Maecenas eleifend tortor dui, facilisis cursus quam lacinia eget.</p>
+                    <div class="badge-outline-red"><span>Lorem ipsum</span></div>
+                    <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
                 </article>
                 <div class="vertical-divider"></div>
                 <article>
                     <img src="https://placehold.co/234x156" alt="Third article">
-                    <h2>Lorem ipsum ipsum psum psum ipsu</h2>
-                    <p>Donec finibus odio a erat eleifend, eget tincidunt libero pretium. Curabitur iaculis fermentum tristique. Maecenas eleifend tortor dui, facilisis cursus quam lacinia eget.</p>
+                    <div class="badge-solid-red"><span>Lorem</span></div>
+                    <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
                 </article>
             </section>
         
@@ -120,10 +129,17 @@
 <hr class="divider-light">
 
 <section class="section-split">
-    <article class="main-article">
-        <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-        <img src="https://placehold.co/457x305" alt="main-article">
-    </article>
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+        </article>
+        <section class="three-titles">
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+        </section>
+    </section>
     <div class="vertical-divider"></div>
     <aside class="side-articles">
         <article class="top-side-article">
@@ -133,6 +149,7 @@
         <hr class="divider-light">
         <article class="bottom-side-article">
             <img src="https://placehold.co/246x164" alt="side-article-second">
+            <div class="tag-red-text"><span>LOREM IPSUM</span></div>
             <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
         </article>
     </aside>
@@ -163,7 +180,8 @@
     
   </header>
 
-  <div class="three-col-grid">
+
+  <div class="three-col-layout">
 
     <article class="opinion-article">
       <a href="#">
@@ -172,7 +190,7 @@
         </figure>
         
         <div class="article-content">
-          <span class="author-name">LOREM IPSUM</span>
+          <span class="tag-red-text">LOREM IPSUM</span>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
         </div>
       </a>
@@ -187,7 +205,7 @@
         </figure>
         
         <div class="article-content">
-          <span class="author-name">LOREM IPSUM</span>
+          <span class="tag-red-text">LOREM IPSUM</span>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</h3>
         </div>
       </a>
@@ -202,7 +220,7 @@
         </figure>
         
         <div class="article-content">
-          <span class="tag-editorial">LOREM IPSUM</span>
+          <div class="badge-outline-red"><span>LOREM IPSUM</span></div>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</h3>
         </div>
       </a>
@@ -210,9 +228,77 @@
 
   </div>
 
-  <hr class="divider-light">
-
 </section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <h3 class="story-title"><span class="text-red">Lorem Ipsum </span>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+    <article class="title-item">
+        <span class="red-arrow"> &gt;</span>
+        <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus. Lorem ipsum ipsum.</h4>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <div class="badge-solid-red"><span>CONSECTETUR</span></div>
+            <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </article>
+        <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+
+    </section>
+    <div class="vertical-divider"></div>
+    <aside class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+    </aside>
+</section>
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>LOREM</span>
+    </div>
+</div>
+
+
+
+
 
         </div> 
 
