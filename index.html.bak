@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>New York Post</title>
+</head>  
+<body>
+<header class="top-header">
+    <div class="left-nav">
+        <button class="btn-sections">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span class="text-sections">SECTIONS</span>
+        </button>
+        <svg class="icon-search" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </svg>
+        <svg class="icon-email" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+    </div>
+    <h1 class="main-logo">
+        NEW YORK POST
+    </h1>
+    <div class="right-nav">
+        <button class="btn-subscribe">
+            <a href="#" class="text-subscribe">Lorem ipsum dolor sit...</a>
+        </button>
+    </div>
+</header>
+
+<nav class="top-nav">
+    <ul class="nav-links">
+        <li><a href="#">PAGE SIX</a></li>
+        <span class="vertical-separator"></span>
+        <li><a href="#">SPORTS</a></li>
+        <span class="vertical-separator"></span>
+        <li><a href="#">METRO</a></li>
+        <span class="vertical-separator"></span>
+        <li><a href="#">OPINION</a></li>
+        <span class="vertical-separator"></span>
+        <li><a href="#">PODCASTS</a></li>
+        <span class="vertical-separator"></span>
+        <li><a href="#">BUSINESS</a></li>
+        <span class="vertical-separator"></span>
+        <li><a href="#">SHOPPING</a></li>
+    </ul>
+    <div class="edition-toggle">
+        Edition 
+        <a href="#">CA</a>
+        <a href="#">NY</a>
+    </div>
+</nav>
+
+<section class="top-promo">
+    <a href="#" class="promo-item">
+        <img src="https://placehold.co/84x56" alt="Lorem Ipsum">
+        <h3 class="promo-title">Lorem Ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    </a>
+    <span class="promo-divider"></span>
+     <a href="#" class="promo-item">
+        <img src="https://placehold.co/84x56" alt="Lorem Ipsum">
+        <h3 class="promo-title">Lorem Ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    </a>
+    <span class="promo-divider"></span>
+     <a href="#" class="promo-item">
+        <img src="https://placehold.co/84x56" alt="Lorem Ipsum">
+        <h3 class="promo-title">Lorem Ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    </a>
+    <span class="first-separator"></span>
+</section>
+
+<main class="homepage-content">
+    <div class="top-content-layout">
+        <div class="main-column">
+            <article class="main-story">
+                <h2>LOREM IPSUM</h2>
+                <img src="https://placehold.co/744x496" alt="Main Story Image">
+                <h3 class="story-title">Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+            </article>
+
+            <section class="two-titles">
+                <article class="title-item">
+                    <span class="red-arrow"> &gt;</span><h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4>
+                </article>
+                <article class="title-item">
+                    <span class="red-arrow"> &gt;</span><h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4>
+                </article>
+            </section>
+
+            <hr class="divider-light">
+
+            <section class="three-col-layout">
+                <article>
+                    <img src="https://placehold.co/234x156" alt="First article">
+                    <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+                </article>
+                <div class="vertical-divider"></div>
+                <article>
+                    <img src="https://placehold.co/234x156" alt="Second article">
+                    <div class="badge-outline-red"><span>Lorem ipsum</span></div>
+                    <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+                </article>
+                <div class="vertical-divider"></div>
+                <article>
+                    <img src="https://placehold.co/234x156" alt="Third article">
+                    <div class="badge-solid-red"><span>Lorem</span></div>
+                    <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+                </article>
+            </section>
+        
+<hr class="divider-light">
+
+    <div class="ad-container">
+        <div class="ad-banner">
+            <img src="https://placehold.co/728x96" alt="Advertisement">
+            <span class="ad-text">ADVERTISEMENT</span>
+        </div>
+    </div>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+        </article>
+        <section class="three-titles">
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+        </section>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <div class="tag-red-text"><span>LOREM IPSUM</span></div>
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<div class="ad-container">
+    <div class="ad-banner">
+        <img src="https://placehold.co/728x96" alt="Advertisement">
+        <span class="ad-text">ADVERTISEMENT</span>
+    </div>
+</div>
+
+<hr class="divider-light">
+
+<section class="opinion-section">
+
+  <header class="section-header">
+    
+    <div class="badge-opinion">
+      <h2>OPINION</h2>
+    </div>
+
+    <span class="header-slogan">LOREM IPSUM. LOREM IPSUM.</span>
+
+    <a href="#" class="link-see-all">LOREM IPSUM <span class="red-arrow"> &gt;</span></a>
+    
+  </header>
+
+
+  <div class="three-col-layout">
+
+    <article class="opinion-article">
+      <a href="#">
+        <figure class="image-wrapper">
+          <img src="https://placehold.co/234x156" alt="Lorem Ipsum">
+        </figure>
+        
+        <div class="article-content">
+          <span class="tag-red-text">LOREM IPSUM</span>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        </div>
+      </a>
+    </article>
+    
+    <div class="vertical-divider"></div>
+
+    <article class="opinion-article">
+      <a href="#">
+        <figure class="image-wrapper">
+          <img src="https://placehold.co/234x156" alt="Lorem Ipsum">
+        </figure>
+        
+        <div class="article-content">
+          <span class="tag-red-text">LOREM IPSUM</span>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</h3>
+        </div>
+      </a>
+    </article>
+
+    <div class="vertical-divider"></div>
+
+    <article class="opinion-article">
+      <a href="#">
+        <figure class="image-wrapper">
+          <img src="https://placehold.co/234x156" alt="Lorem Ipsum">
+        </figure>
+        
+        <div class="article-content">
+          <div class="badge-outline-red"><span>LOREM IPSUM</span></div>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</h3>
+        </div>
+      </a>
+    </article>
+
+  </div>
+
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <h3 class="story-title"><span class="text-red">Lorem Ipsum </span>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+    <article class="title-item">
+        <span class="red-arrow"> &gt;</span>
+        <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus. Lorem ipsum ipsum.</h4>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <div class="badge-solid-red"><span>CONSECTETUR</span></div>
+            <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </article>
+        <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+    </div>
+</section>
+
+<header class="section-header">
+    
+    <div class="badge-post-sports">
+      <h2>POST SPORTS+</h2>
+    </div>
+
+    <a href="#" class="link-see-all">TRY IT FREE <span class="red-arrow"> &gt;</span></a>
+    
+  </header>
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <div class="badge-outline-red"><span>Lorem ipsum</span></div>
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <div class="tag-red-text"><span>Lorem ipsum</span></div>
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <div class="tag-red-text"><span>Lorem ipsum</span></div>
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+</section>
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>IRAN WAR</span>
+    </div>
+</div>
+
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <h3 class="story-title"><span class="text-red">Lorem Ipsum </span>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus. In sed blandit risus. Nullam accumsan</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+    <section class="three-titles">
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item"><span class="red-arrow"> &gt;</span> <h4>Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.</h4></article>
+            <article class="title-item">
+                <h4>
+                    <span class="red-arrow"> &gt;</span> 
+                    <div class="badge-solid-red"><span>Lorem</span></div>
+                    Lorem ipsum ipsum psum psum ipsum ipsum malet mano manus.
+                </h4>
+            </article>
+        </section>
+</section>
+
+
+<hr class="divider-heavy">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <div class="badge-solid-red"><span>LOREM IPSUM</span></div>
+        <h3 class="story-title"><span class="text-red">Lorem Ipsum </span>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <div class="tag-red-text"><span>Lorem ipsum</span></div>
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <div class="badge-outline-red"><span>Lorem</span></div>
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+</section>
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <div class="badge-solid-red"><span>LOREM IPSUM</span></div>
+        <h3 class="story-title"><span class="text-red">Lorem Ipsum </span>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+</section>
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>NY POSTCAST</span>
+    </div>
+</div>
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/735x413" alt="Main Story Image">
+        <p><strong>Nullam leo urna</strong> luctus eget vehicula at, egestas imperdiet enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ornare ullamcorper tortor, sed tincidunt tortor rutrum a. Sed quis felis rutrum, eleifend mauris ac, gravida felis. Nullam id aliquam orci, ac aliquet enim. Cras iaculis bibendum rhoncus. Proin rhoncus ac ante et bibendum. Sed dignissim nisi eu justo vestibulum pulvinar. Phasellus sapien nisl, dictum et arcu eu, ornare cursus massa.<a href="#" class="red-link"> Lupus in fabula</a></p>
+
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Lorem Ipsum</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Lorem ipsum?</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <h3 class="story-title"><span class="text-red">Mauris enim justo, </span> aliquam sit amet facilisis sit amet, dictum id tortor.</h3>
+        <p>Suspendisse potenti. Sed tincidunt sapien.</p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <div class="badge-outline-red"><span>Malum magnum</span></div>
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <div class="badge-solid-red"><span>magna carta</span></div>
+            <h2 class="main-article-title"><span class="text-red">Vivamus quis</span> vestibulum mi. Aenean sem ex, porttitor ac justo at, egestas scelerisque felis.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Aliquam ut sollicitudin velit, id imperdiet mauris. Nam sit amet purus in augue semper consequat quis ac lacus. In non erat ullamcorper.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-rectangle">
+        <div class="side-rectangle-badge">
+            <h2>CARTAGO</h2>
+        </div>
+        <div class="side-rectangle-content">
+            <article class="rectangle-article">
+                <img src="https://placehold.co/280x187" alt="Main article">
+                <h3>Nullam sollicitudin lacus sit amet massa iaculis elementum. Lupus in fabula.</h3>
+            </article>
+            <hr class="divider-light">
+            <article class="rectangle-article">
+                <h3>Aliquam ut sollicitudin velit, id imperdiet mauris. Nam sit amet purus in augue semper consequat quis ac lacus. In non erat ullamcorper.</h3>
+            </article>
+            <hr class="divider-light">
+            <article class="rectangle-article">
+                <h3>Nulla ac mauris est. Integer ac ultrices ligula, eu vestibulum felis.</h3>
+            </article>
+        </div>
+        <div class="side-rectangle-footer">
+            <a href="#" class="link-see-more">ALEA IACTA EST <span class="red-arrow">&gt;</span></a>
+        </div>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <h3 class="story-title"><span class="text-red">Lorem Ipsum </span>Aenean condimentum laoreet neque, in convallis erat aliquam non. </h3>
+        <p>Cras tincidunt a est sit amet lobortis. Aliquam hendrerit quis felis quis convallis. Nulla posuere elementum vestibulum. </p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Nam nunc felis, lacinia sit amet odio nec, imperdiet cursus lacus. Etiam vehicula convallis velit quis aliquam.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Vivamus feugiat convallis dolor a tincidunt. In hac habitasse platea dictumst. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Quisque viverra sem vel dolor hendrerit, posuere blandit tellus scelerisque.</h3>
+    </article>
+</section>
+    
+<div class="left-badge-divider">
+    <div class="badge-black">
+        <span>Page Six</span>
+    </div>
+</div>
+
+<section class="five-articles-container">
+    <div class="five-articles-small-column">
+        <article>
+            <img src="https://placehold.co/195x130" alt="First article">
+            <h3>Aenean condimentum laoreet neque, in convallis erat aliquam non. Vivamus at tellus metus.</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/195x130" alt="Second article">
+            <h3>Vivamus feugiat convallis dolor a tincidunt.</h3>
+        </article>
+    </div>
+    <article class="five-articles-main-article">
+        <img src="https://placehold.co/314x209" alt="Main article">
+        <div class="badge-solid-red">
+            <span>PECORA</span>
+        </div>
+        <h3> Nam a fermentum nibh. Integer aliquam bibendum nulla.</h3>
+        <p>Sed porta libero vel nunc congue, nec commodo elit egestas. Donec suscipit sed enim at rutrum. Lupus magna pecora.</p>
+    </article>
+    <div class="five-articles-small-column">
+        <article>
+            <img src="https://placehold.co/195x130" alt="Fourth article">
+            <h3>Donec velit nisl, malesuada sit amet augue vel, dapibus maximus tortor. Nam pecora magna.</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/195x130" alt="Fifth article">
+            <h3>Donec fringilla at dui vel ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        </article>
+    </div>
+</section>
+
+
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>SPORTS</span>
+    </div>
+</div>
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <div class="badge-outline-red"><span>LOREM IPSUM</span></div>
+        <h3 class="story-title"><span class="text-red">Pellentesque habitant morbi tristique senectus </span>et netus et malesuada fames ac turpis egestas.</h3>
+        <p>Morbi sit amet fringilla augue, a luctus tortor. Etiam et arcu vitae ante fringilla varius sed et felis. Aenean vel sem tempus, hendrerit justo eget, feugiat magna. Morbi ipsum dui, semper eget consequat vitae, venenatis in dolor. </p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <div class="badge-outline-red"><span>AIEA IACTA EST</span></div>
+        <h3>Nam nunc felis, lacinia sit amet odio nec, imperdiet cursus lacus. Etiam vehicula convallis velit quis aliquam.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <div class="badge-outline-red"><span>CARTHAGO DELETA</span></div>
+        <h3>Vivamus feugiat convallis dolor a tincidunt. In hac habitasse platea dictumst. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Quisque viverra sem vel dolor hendrerit, posuere blandit tellus scelerisque.</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Donec eu efficitur</span> Suspendisse ac mattis dui, eget posuere velit. Phasellus a sollicitudin urna. </h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Curabitur in dui sem. Etiam finibus in augue at porta. Curabitur efficitur felis elementum libero porttitor tincidunt. Cras sed dapibus nibh, at porttitor tortor. Etiam blandit sit amet ligula vel mollis.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <div class="tag-red-text"><span>ROSAE</span></div>
+            <h3>Nunc at augue arcu. Donec volutpat velit in auctor dapibus. Vivamus luctus, libero vel egestas bibendum, arcu metus finibus tortor.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Nam lorem ipsum, placerat sit amet aliquam in, vehicula sed mauris.</h3>
+        </article>
+    </div>
+</section>
+
+<div class="see-more-link">
+    <a href="#" class="link-see-more">MORE SPORTS <span class="red-arrow">&gt;</span></a>
+</div>
+
+<hr class="divider-heavy">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <h3 class="story-title"><span class="text-red">Curabitur </span> risus dolor, congue ut elementum ut, dignissim at sapien.</h3>
+        <p>Maecenas vel finibus neque. Etiam nec erat nunc. Pellentesque habitant morbi tristique senectus. </p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <div class="badge-solid-red"><span>ROMA</span></div>
+        <h3>Nullam nec dolor nibh. Suspendisse lacinia orci facilisis, pretium nibh et, aliquam enim.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Donec blandit rhoncus mauris nec rutrum. Donec accumsan, nisi eu auctor porta, felis lacus consequat nunc. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Fusce sodales pharetra egestas. Maecenas condimentum mattis velit euismod ullamcorper.</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Lorem ipsum </span>dolor sit amet, consectetur adipiscing elit. Donec consequat, mi venenatis lobortis </h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Aliquam nec commodo nisl.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <div class="tag-red-text"><span>Inter</span></div>
+            <h3>Mauris iaculis orci velit, eget feugiat nulla imperdiet luctus. Mauris tempor.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Aenean sed gravida odio. Morbi maximus, turpis nec finibus tempus.</h3>
+        </article>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <div class="badge-solid-red"><span>malesuada</span></div>
+        <h3 class="story-title"><span class="text-red">Nam iaculis</span> finibus tristique. Donec nec orci at felis porta pulvinar. Nunc aliquam elit non quam ullamcorper lacinia.</h3>
+        <p>Morbi porta lacinia pharetra. Nulla convallis laoreet erat, sed dictum tortor dignissim sed. Pellentesque aliquam ornare massa ut sollicitudin. </p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+
+
+<section class="three-col-layout">
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Aliquam consequat quam at velit luctus, a blandit lectus varius.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Etiam semper erat in risus consectetur, a semper leo venenatis. Sed gravida a tellus ut euismod. Quisque sit amet. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <div class="badge-outline-red"><span>Alienus</span></div>
+        <h3>Suspendisse vitae mauris in tortor lobortis pharetra ut at urna. In tempus.</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <div class="tag-red-text"><span>Lorem</span></div>
+            <h2 class="main-article-title"><span class="text-red">Fusce </span> dapibus congue dui eu tincidunt. Cras laoreet est vel felis egestas, vitae scelerisque. </h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Aliquam pharetra pulvinar malesuada. Sed sit amet venenatis enim, ac accumsan massa. Phasellus vestibulum vehicula risus.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Donec mattis nisi id quam varius accumsan. Vivamus dignissim semper venenatis.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <div class="badge-outline-red"><span>VITA</span></div>
+            <h3>Sed sit amet venenatis enim, ac accumsan massa. Phasellus vestibulum vehicula risus, ac mollis neque facilisis sed.</h3>
+        </article>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <div class="badge-solid-red"><span>Volutpat</span></div>
+        <h3 class="story-title"><span class="text-red">Sed enim leo, </span> faucibus vel convallis non, molestie et risus. Pellentesque sed metus dapibus risus facilisis suscipit.</h3>
+        <p>Donec egestas urna vitae tincidunt vulputate. Cras non faucibus orci. Nulla eget eleifend dui. Ut porttitor est in tempor euismod. </p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+
+<img src="https://placehold.co/734x36" alt="banner" class="short-banner">
+
+<section class="three-col-layout">  
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Phasellus vehicula nulla ut quam rutrum blandit. Sed blandit tortor eu commodo tempus.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Phasellus sed posuere nisi. Mauris eros mi, consequat in pellentesque quis, scelerisque in neque. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Duis scelerisque tincidunt congue. Vestibulum quam est, tincidunt sed ultricies vitae.</h3>
+    </article>
+</section>
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>POST WANTED</span>
+    </div>
+</div>
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Nunc </span> turpis sem, gravida vitae tempor ac, vulputate in tortor. Nunc vitae odio neque.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Nullam lobortis sodales nunc vel congue. Suspendisse potenti. </p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Nunc vitae dolor feugiat, efficitur nisl ut, eleifend purus. In vehicula nulla nec quam pretium.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Etiam luctus quis nulla vel auctor. Nam iaculis pulvinar consequat.</h3>
+        </article>
+    </div>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">  
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Suspendisse potenti. Aenean sit amet luctus nisl. Quisque porta, justo a dapibus tincidunt.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Risus velit venenatis massa, ac rhoncus nisl erat quis dolor. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Phasellus a lorem ut odio interdum iaculis. Donec mollis sodales felis vitae posuere.</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="main-story">
+    <article>
+        <img src="https://placehold.co/744x496" alt="Main Story Image">
+        <div class="badge-solid-red"><span>IPSUM</span></div>
+        <h3 class="story-title"><span class="text-red">Orci varius, </span> natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</h3>
+        <p>Praesent turpis lectus, tempor id suscipit id, iaculis ac nisl. Aliquam quis molestie sem. </p>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="three-col-layout">  
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <div class="badge-solid-red"><span>carta</span></div>
+        <h3>Fusce eget dignissim enim, non condimentum lectus. Phasellus a lorem.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Donec mollis sodales felis vitae posuere. Donec semper justo nec orci molestie. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Proin ipsum metus, semper eu augue in, malesuada sodales ipsum.</h3>
+    </article>
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Pellentesque et arcu eleifend, bibendum nibh non, iaculis nisi.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Maecenas tempor, felis quis euismod fringilla, leo dolor viverra nibh, vitae dapibus lectus turpis non sem. Nullam elit ante.</h3>
+        </article>
+    </div>
+    <div class="vertical-divider"></div>
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Nulla </span> auctor sed sapien id eleifend. Proin imperdiet finibus tellus, id condimentum lorem.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Pellentesque eu porta nisl, a tincidunt nisl. </p>
+        </article>
+    </section>
+
+</section>
+
+<hr class="divider-light">
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title"><span class="text-red">Integer in lobortis</span> massa. Proin ipsum metus, semper eu augue in, malesuada sodales ipsum.</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at euismod nibh. Pellentesque in suscipit est.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-rectangle">
+        <div class="side-rectangle-badge">
+            <h2>BUSINESS</h2>
+        </div>
+        <div class="side-rectangle-content">
+            <article class="rectangle-article">
+                <img src="https://placehold.co/280x187" alt="Main article">
+                <h3>Vivamus viverra nunc non eros mollis fringilla. Pellentesque eu turpis quis nisi euismod luctus</h3>
+            </article>
+            <hr class="divider-light">
+            <article class="rectangle-article">
+                <h3>Integer a justo id nibh tristique accumsan sed sit amet leo. Nam finibus, augue et condimentum pulvinar.</h3>
+            </article>
+            <hr class="divider-light">
+            <article class="rectangle-article">
+                <div class="badge-solid-red"><span>CARTAGO DELETA EST</span></div>
+                <h3>Suspendisse rhoncus auctor tortor quis facilisis. Donec risus libero, venenatis laoreet leo sed.</h3>
+            </article>
+        </div>
+        <div class="side-rectangle-footer">
+            <a href="#" class="link-see-more">CARRUS <span class="red-arrow">&gt;</span></a>
+        </div>
+    </div>
+</section>
+
+<div class="left-badge-divider">
+    <div class="badge-black" style="margin-right: 20px;">
+        <span>alexa</span>
+    </div>
+    <span class="header-slogan">LUPUS IN FABULA</span>
+</div>
+
+<section class="five-articles-container">
+    <div class="five-articles-small-column">
+        <article>
+            <img src="https://placehold.co/195x130" alt="First article">
+            <h3>Ut ac tincidunt est. Aenean sagittis a diam eget tristique. In sollicitudin pellentesque libero.</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/195x130" alt="Second article">
+            <h3>In sollicitudin pellentesque libero, non lacinia velit ultricies a. Suspendisse potenti.</h3>
+        </article>
+    </div>
+    <article class="five-articles-main-article">
+        <img src="https://placehold.co/314x209" alt="Main article">
+        <div class="badge-solid-red">
+            <span>ETRUSCUS</span>
+        </div>
+        <h3> Quisque nibh leo, fringilla non efficitur vel, aliquam vitae mauris. </h3>
+        <p>Nam porttitor, diam id luctus volutpat, odio urna tempor eros, ut imperdiet ante ipsum eu metus. Donec pretium enim ac enim gravida vestibulum. </p>
+    </article>
+    <div class="five-articles-small-column">
+        <article>
+            <img src="https://placehold.co/195x130" alt="Fourth article">
+            <h3>Duis non eros turpis. Curabitur et mauris sit amet ante placerat placerat. </h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/195x130" alt="Fifth article">
+            <h3>Proin vel mi urna. Pellentesque eget elit justo. Nunc bibendum magna velit.</h3>
+        </article>
+    </div>
+</section>
+
+
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>DECIDER</span>
+    </div>
+</div>
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title">Suspendisse potenti. Aliquam blandit, massa sit amet pretium venenatis</h2>
+            <img src="https://placehold.co/457x305" alt="main-article">
+            <p class="main-article-paragraph">Donec sed erat faucibus, tempor odio eu, luctus sem. </p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Duis viverra ornare mauris, congue tincidunt dolor suscipit id.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Sed commodo mauris sem, vitae semper eros consectetur et.</h3>
+        </article>
+    </div>
+</section>
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>PLAY OUR NEWEST GAMES!</span>
+    </div>
+</div>
+
+<section class="three-col-layout">  
+    <article>
+        <img src="https://placehold.co/234x156" alt="First article">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Second article">
+        <h3>Suspendisse ullamcorper sapien eu semper imperdiet. Vestibulum quis ante ut dolor laoreet. </h3>
+    </article>
+    <div class="vertical-divider"></div>
+    <article>
+        <img src="https://placehold.co/234x156" alt="Third article">
+        <h3>Mauris sit amet pretium metus. In lobortis mi ac porta bibendum.</h3>
+    </article>
+</section>
+
+<div class="see-more-link">
+    <a href="#" class="link-see-more">SEE MORE GAMES <span class="red-arrow">&gt;</span></a>
+</div>
+
+<div class="centered-badge-divider">
+    <div class="badge">
+        <span>VIDEOS</span>
+    </div>
+</div>
+
+<section class="section-split">
+    <section class="main-article-container">
+        <article class="main-article">
+            <h2 class="main-article-title">Donec tortor mi, vehicula at lacinia nec, aliquam a ligula. Integer in tortor nec dui consectetur rhoncus.</h2>
+            <img src="https://placehold.co/447x251" alt="main-article">
+            <p class="main-article-paragraph">Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec varius mi et metus vulputate, et auctor sapien vestibulum. Sed a felis eu massa lobortis feugiat a eu risus. Pellentesque justo felis, luctus vel metus sit amet, convallis pretium ex.</p>
+        </article>
+    </section>
+    <div class="vertical-divider"></div>
+    <div class="side-articles">
+        <article class="top-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-first">
+            <h3>Pellentesque a tortor iaculis, ullamcorper mi id, varius est.</h3>
+        </article>
+        <hr class="divider-light">
+        <article class="bottom-side-article">
+            <img src="https://placehold.co/246x164" alt="side-article-second">
+            <h3>Vivamus ut aliquam est, ac feugiat tortor. Suspendisse nec lectus ut lectus ullamcorper pulvinar quis a felis.</h3>
+        </article>
+    </div>
+</section>
+
+<div class="see-more-link">
+    <a href="#" class="link-see-more">MORE VIDEOS <span class="red-arrow">&gt;</span></a>
+</div>
+
+<section class="final-article-section">
+    <div class="final-article-row">
+        <article>
+            <hr class="divider-heavy">
+            <h3>US NEWS <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Curabitur lacinia scelerisque posuere. Nulla eget pharetra sem.</h4>
+            <hr class="divider-light">
+            <h5>Donec vestibulum nunc sit amet risus cursus fermentum.</h5>
+            <hr class="divider-light">
+            <h5>In arcu metus, eleifend eu luctus in, tempor sed elit.</h5>
+            <hr class="divider-light">
+            <h5>Orci varius natoque penatibus et magnis dis parturient montes.</h5>
+        </article>
+        <article>
+            <hr class="divider-heavy">
+            <h3>SPORTS <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>In tincidunt cursus tortor ac scelerisque. Sed at turpis a leo.</h4>
+            <hr class="divider-light">
+            <h5>Proin velit nisi, cursus quis mattis quis, elementum in diam.</h5>
+            <hr class="divider-light">
+            <h5>Aliquam cursus, dui congue sagittis pulvinar, neque augue rhoncus.</h5>
+            <hr class="divider-light">
+            <h5>Ut posuere nibh aliquam pulvinar ultricies. Proin eleifend interdum.</h5>
+        </article>
+        <article>
+            <hr class="divider-heavy">
+            <h3>METRO <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Sed et sollicitudin quam. Fusce bibendum aliquet est et semper.</h4>
+            <hr class="divider-light">
+            <h5>Sed at velit laoreet, suscipit arcu id, viverra enim.</h5>
+            <hr class="divider-light">
+            <h5>Morbi tincidunt felis in nunc porttitor, nec eleifend eros.</h5>
+            <hr class="divider-light">
+            <h5>Morbi quam odio, placerat sed nunc ut, placerat aliquam eros.</h5>
+        </article>
+    </div>
+
+    <div class="final-article-row">
+        <article>
+            <hr class="divider-heavy">
+            <h3>ENTERTAINMENT <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Ut elit dolor, gravida vel lacus eu, maximus convallis felis.</h4>
+            <hr class="divider-light">
+            <h5>Donec posuere orci non mollis vestibulum. Vestibulum rutrum ante.</h5>
+            <hr class="divider-light">
+            <h5>Praesent tincidunt massa metus, vel condimentum nunc facilisis in.</h5>
+            <hr class="divider-light">
+            <h5>Mauris gravida posuere ipsum, ut varius lectus. Proin vestibulum.</h5>
+        </article>
+        <article>
+            <hr class="divider-heavy">
+            <h3>OPINION <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Morbi malesuada ex tempus velit sollicitudin posuere. Donec vel.</h4>
+            <hr class="divider-light">
+            <h5>Pellentesque turpis ipsum, accumsan eget neque eu, facilisis.</h5>
+            <hr class="divider-light">
+            <h5>Nam ut volutpat nisl, quis luctus ligula. Pellentesque et accumsan.</h5>
+            <hr class="divider-light">
+            <h5>Vestibulum id massa non diam consequat malesuada. Suspendisse vitae.</h5>
+        </article>
+        <article>
+            <hr class="divider-heavy">
+            <h3>BUSINESS <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Donec porttitor non nisi mollis fermentum. Proin condimentum justo.</h4>
+            <hr class="divider-light">
+            <h5>Morbi venenatis ac libero sit amet malesuada. Phasellus eleifend.</h5>
+            <hr class="divider-light">
+            <h5>Nullam laoreet vel lorem at elementum. Mauris luctus, lectus.</h5>
+            <hr class="divider-light">
+            <h5>Vivamus imperdiet tortor quam, sed porta odio imperdiet quis.</h5>
+        </article>
+    </div>
+
+    <div class="final-article-row">
+        <article>
+            <hr class="divider-heavy">
+            <h3>WELLNESS <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Fusce sapien tortor, placerat non nunc a, ornare ultricies.</h4>
+            <hr class="divider-light">
+            <h5>Praesent eu pulvinar risus, sit amet viverra leo. Suspendisse.</h5>
+            <hr class="divider-light">
+            <h5>Morbi pulvinar metus vel finibus posuere. Morbi pretium vulputate.</h5>
+            <hr class="divider-light">
+            <h5>Aenean id odio convallis, bibendum libero in, accumsan felis.</h5>
+        </article>
+        <article>
+            <hr class="divider-heavy">
+            <h3>SHOPPING <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Etiam posuere diam vel justo posuere bibendum. Proin id risus.</h4>
+            <hr class="divider-light">
+            <h5>In sit amet nisl quis nulla scelerisque euismod ut vitae leo.</h5>
+            <hr class="divider-light">
+            <h5>Cras tempor, dui auctor tempus hendrerit, augue sapien eleifend.</h5>
+            <hr class="divider-light">
+            <h5>Maecenas commodo sapien feugiat leo sollicitudin porttitor. Nunc.</h5>
+        </article>
+        <article>
+            <hr class="divider-heavy">
+            <h3>REAL ESTATE <span class="red-arrow">&gt;</span></h3>
+            <hr class="divider-light">
+            <img src="https://placehold.co/260x174" alt="Article">
+            <h4>Nullam non vestibulum augue, eget venenatis ipsum. Vestibulum.</h4>
+            <hr class="divider-light">
+            <h5>Vestibulum purus metus, sagittis nec diam ac, egestas iaculis.</h5>
+            <hr class="divider-light">
+            <h5>Aliquam cursus, dui congue sagittis pulvinar, neque augue rhoncus.</h5>
+            <hr class="divider-light">
+            <h5>Sed at velit laoreet, suscipit arcu id, viverra enim. Morbi tincidunt.</h5>
+        </article>
+    </div>
+</section>
+
+
+
+        </div> 
+
+        <aside class="right-sidebar">
+            <div class="sidebar-widget ad-widget">
+                <img src="https://placehold.co/300x250" alt="Advertisement">
+                <span class="ad-text-sidebar">ADVERTISEMENT</span>
+            </div>
+        </aside>
+    </div> 
+
+</main>
+
+</body>
+</html>
