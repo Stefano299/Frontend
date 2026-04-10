@@ -8,8 +8,8 @@
     --color-bg-light: #f4f4f4;
     --color-border-light: #eeeeee;
     
-    --font-main: "Neue Haas Grotesk Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-logo: 'Arial Black', Impact, sans-serif;
+    --font-main: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-logo: "Inter", 'Arial Black', Impact, sans-serif;
     
     --max-width: 1064px;
     --transition-fast: 0.2s ease;
@@ -93,6 +93,7 @@ hr.divider-heavy {
 .centered-badge-divider {
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: center;
     position: relative;
     margin: 40px 0;
@@ -119,7 +120,7 @@ hr.divider-heavy {
     box-shadow: 4px 4px 0 var(--color-black);
 }
 
-.centered-badge-divider .badge h2 {
+.centered-badge-divider .badge h1 {
     display: block;
     color: var(--color-red);
     font-style: italic;
@@ -161,7 +162,7 @@ hr.divider-heavy {
     box-shadow: 3px 3px 0 var(--color-black);
 }
 
-.left-badge-divider .badge-black h2 {
+.left-badge-divider .badge-black h1 {
     display: block;
     color: var(--color-white);
     font-family: var(--font-logo); 
@@ -221,12 +222,7 @@ hr.divider-heavy {
     font-size: 14px;
 }
 
-.title-item .badge-solid-red {
-    margin-top: 0;
-    margin-bottom: 0;
-    display: inline-flex;
-    vertical-align: middle;
-}
+
 
 .title-item .badge-outline-red {
     margin-top: 0;
@@ -237,6 +233,14 @@ hr.divider-heavy {
 
 .main-story .badge-solid-red {
     margin: 10px auto;
+}
+
+.title-item .badge-solid-red {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
 .main-story .badge-outline-red {
@@ -281,6 +285,23 @@ hr.divider-heavy {
     align-items: center;
     padding: 10px 20px;
     height: 85px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: transform 0.25s ease;
+}
+
+.top-header.top-header-hidden {
+    transform: translateY(-100%);
+}
+
+.top-header.is-shrunk {
+    height: 50px; 
+}
+
+.top-header.is-shrunk img.main-logo {
+    height: 40px;
+    width: auto;
 }
 
 .left-nav, 
@@ -332,7 +353,7 @@ hr.divider-heavy {
     align-items: center;
     padding: 10px 20px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 900;
     position: relative;
     height: 36px;
 }
@@ -413,7 +434,7 @@ hr.divider-heavy {
     font-weight: 400;
 }
 
-.main-story h2 {
+.main-story h1 {
     color: var(--color-red);
     font-style: italic;
     font-size: 40px;
@@ -442,7 +463,7 @@ hr.divider-heavy {
     color: var(--color-black);
 }
 
-.two-titles h4 {
+.two-titles h3 {
     font-size: 18px;
     line-height: 19.8px;
     letter-spacing: -0.18px;
@@ -461,7 +482,7 @@ hr.divider-heavy {
     flex: 1;
 }
 
-.three-col-layout article h3 {
+.three-col-layout article h2 {
     font-size: 18px;
     line-height: 19.8px;
     letter-spacing: -0.18px;
@@ -489,7 +510,7 @@ hr.divider-heavy {
     margin-bottom: 25px;
 }
 
-.final-article-row h3{
+.final-article-row h2{
     font-size: 16px;
     line-height: 15.3px;
     letter-spacing: -0.16px;
@@ -500,7 +521,7 @@ hr.divider-heavy {
     justify-content: space-between;
 }
 
-.final-article-row h4{
+.final-article-row h3{
     font-size: 16px;
     line-height: 15.3px;
     letter-spacing: -0.16px;
@@ -509,7 +530,7 @@ hr.divider-heavy {
     color: var(--color-black);
 }
 
-.final-article-row h5{
+.final-article-row h4{
     font-size: 15px;
     line-height: 15.3px;
     letter-spacing: -0.16px;
@@ -554,7 +575,7 @@ hr.divider-heavy {
     display: inline-block;
 }
 
-.title-item h4 {
+.title-item h3 {
     font-size: 15px;
     line-height: 1.15;
     letter-spacing: -0.45px;
@@ -582,7 +603,7 @@ hr.divider-heavy {
     gap: 20px;
 }
 
-.side-articles h3 {
+.side-articles h2 {
     margin-top: 5px;
     font-size: 18px;
     line-height: 19.8px;
@@ -598,7 +619,6 @@ hr.divider-heavy {
 
 .five-articles-small-column {
     width: 195px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -606,10 +626,9 @@ hr.divider-heavy {
 
 .five-articles-main-article {
     width: 314px;
-    flex-shrink: 0;
 }
 
-.five-articles-container h3 {
+.five-articles-container h2 {
     margin-top: 10px;
     font-size: 18px;
     line-height: 19.8px;
@@ -639,7 +658,7 @@ hr.divider-heavy {
     padding: 4px 20px;
 }
 
-.side-rectangle-badge h2 {
+.side-rectangle-badge h1 {
     color: var(--color-red);
     font-style: italic;
     transform: skew(15deg);
@@ -649,7 +668,7 @@ hr.divider-heavy {
     text-transform: uppercase;
 }
 
-.rectangle-article h3 {
+.rectangle-article h2 {
     margin-top: 10px;
     font-size: 18px;
     line-height: 20px;
@@ -680,7 +699,8 @@ hr.divider-heavy {
     margin-top: 20px;
 }
 
-.left-badge-header {
+.left-badge-header,
+.section-header {
     display: flex;
     align-items: center;
     position: relative;
@@ -689,7 +709,8 @@ hr.divider-heavy {
     z-index: 1;
 }
 
-.left-badge-header::before {
+.left-badge-header::before,
+.section-header::before {
     content: '';
     position: absolute;
     left: 0;
@@ -711,6 +732,8 @@ hr.divider-heavy {
 }
 
 .badge-post-sports {
+    position: relative;
+    z-index: 2;
     background-color: #FFD62B;
     border: 2px solid var(--color-black);
     padding: 3px 20px;
@@ -720,7 +743,7 @@ hr.divider-heavy {
     margin-bottom: 10px;
 }
 
-.badge-post-sports h2 {
+.badge-post-sports h1 {
     color: var(--color-white);
     font-family: var(--font-logo);
     font-size: 28px;
@@ -732,7 +755,7 @@ hr.divider-heavy {
     margin: 0;
 }
 
-.badge-opinion h2 {
+.badge-opinion h1 {
     color: var(--color-red);
     font-style: italic;
     transform: skew(15deg);
@@ -806,14 +829,21 @@ hr.divider-heavy {
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2500px;
 }
 
-.sidebar-widget {
-    padding-bottom: 20px;
+.right-sidebar > * {
+    width: 100%;
 }
 
-.ad-widget {
+.right-sidebar > .aside-item-active {
+    position: sticky;
+    top: 12px;
+}
+
+
+
+.sidebar-advertisement {
     text-align: center;
     background-color: var(--color-bg-light);
     padding: 15px;
@@ -872,7 +902,7 @@ hr.divider-heavy {
     padding: 20px 20px 30px 0px;
 }
 
-.footer-column h3 {
+.footer-column h2 {
     font-size: 12px;
     font-weight: 900;
     text-transform: uppercase;
@@ -881,7 +911,7 @@ hr.divider-heavy {
     letter-spacing: 0.3px;
 }
 
-.footer-column h3:first-child {
+.footer-column h2:first-child {
     margin-top: 0;
 }
 
@@ -919,14 +949,32 @@ hr.divider-heavy {
     color: #666;
 }
 
+@media (max-width: 1200px) {
+    .homepage-content {
+        padding: 20px 12px;
+    }
+    .main-column {
+        max-width: none;
+        min-width: 0;
+        flex: 1;
+    }
+}
+
 
 
 @media (max-width: 1000px){
+
+    .top-header > :last-child{
+            display:none;
+    }
+
     .top-nav {
         flex-direction: column;
-        gap: 15px;
-        padding: 20px 10px;
+        padding: 5px 3px;
         height: auto;
+    }
+    .nav-links {
+        gap: 4px;
     }
 
     .nav-links {
@@ -941,6 +989,105 @@ hr.divider-heavy {
         margin-top: 10px;
         width: 100%;
     }
+
+    .top-content-layout {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main-column {
+        max-width: 100%;
+    }
+
+    .right-sidebar {
+        max-width: 100%;
+        width: 100%;
+        gap: 30px;
+        margin-top: 10px;
+        align-items: stretch;
+    }
+
+    .right-sidebar > .aside-item-active {
+        position: static;
+        transform: none;
+    }
+
+    .right-sidebar .sidebar-advertisiment,
+    .right-sidebar .sidebar-advertisement,
+    .right-sidebar .trending-section {
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .top-header {
+        padding: 5px 10px;
+        height: 60px;
+    }
+    .left-nav {
+        gap: 5px;
+    }
+    .main-logo {
+        max-width: 45vw;
+        height: auto;
+    }
+    .text-sections{
+        display:none;
+    }
+    .btn-sections{
+        border: 0px;
+        padding: 4px;
+    }
+    .five-articles-small-column article,
+    .five-articles-main-article article {
+        position: relative;
+        padding-left: 136px;
+        min-height: 80px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--color-border-light);
+    }
+
+    .five-articles-main-article article:last-child,
+    .five-articles-small-column article:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .five-articles-main-article article::before,
+    .five-articles-small-column article::before {
+        content: '';
+        position: absolute;
+        left: 126px;
+        top: 6px;
+        bottom: 6px;
+        width: 1px;
+        background-color: var(--color-black);
+    }
+
+    .five-articles-main-article article img,
+    .five-articles-small-column article img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 120px;
+        height: 80px;
+        object-fit: cover;
+        margin: 0;
+    }
+    .five-articles-small-column,
+    .five-articles-main-article {
+        max-width: 100%;
+        width: 100%;
+    }
+    .five-articles-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .five-articles-main-article p,
+    .five-articles-main-article .badge-solid-red,
+    .five-articles-main-article .badge-outline-red {
+        margin-top: 8px;
+    }
 }
 
 @media (max-width: 650px){
@@ -954,6 +1101,11 @@ hr.divider-heavy {
         margin-top:-8px;
     }
 
+    .top-promo > a:last-of-type{
+        border-bottom: 0px solid var(--color-black);
+        margin-bottom: -10px;
+    }
+
     .promo-divider{
         display: none;
     }
@@ -962,6 +1114,25 @@ hr.divider-heavy {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 500px) {
+
+    .badge-post-sports {
+        padding: 2px 12px;
+        box-shadow: 3px 3px 0 var(--color-black);
+    }
+    
+    .badge-post-sports h1 {
+        font-size: 14px;
+        text-shadow: 2px 2px 0 var(--color-black);
+    }
+
+    .nav-links {
+        color: var(--color-black);
+        background-color: var(--color-white);
+    }
+
+    .top-nav{
+        padding: 0px 0px 6px 0px;
+    }
 
     .header-slogan {
         display:none;
@@ -978,8 +1149,7 @@ hr.divider-heavy {
     .side-articles,
     .two-titles,
     .three-col-layout,
-    .final-article-row,
-    .five-articles-container {
+    .final-article-row {
         flex-direction: column;
         gap: 30px;
     }
@@ -989,23 +1159,26 @@ hr.divider-heavy {
     }
 
     .right-sidebar, 
-    .main-column,
-    .five-articles-small-column,
-    .five-articles-main-article {
+    .main-column {
         max-width: 100%;
         width: 100%;
     }
 
     .right-sidebar {
-        align-items: center;
-        margin-top: 40px;
+        align-items: stretch;
+        margin-top: 10px;
+        gap: 30px;
+    }
+
+    .right-sidebar > .aside-item-active {
+        position: static;
     }
 
     .main-logo {
         font-size: 32px;
     }
 
-    .main-story h2 {
+    .main-story h1 {
         font-size: 28px;
     }
 
@@ -1022,11 +1195,11 @@ hr.divider-heavy {
     .centered-badge-divider .badge {
         padding: 3px 15px;
     }
-    .centered-badge-divider .badge h2 {
+    .centered-badge-divider .badge h1 {
         font-size: 18px;
     }
     
-    .left-badge-divider .badge-black h2 {
+    .left-badge-divider .badge-black h1 {
         font-size: 22px;
     }
 
@@ -1106,7 +1279,9 @@ hr.divider-heavy {
     }
 
     .three-col-layout article,
-    .section-split .side-articles article {
+    .section-split .side-articles article,
+    .five-articles-small-column article,
+    .five-articles-main-article {
         margin-top: 0;
     }
 
@@ -1114,11 +1289,14 @@ hr.divider-heavy {
         display: none;
     }
 
-    .three-col-layout article h3,
-    .section-split .side-articles article h3 {
+    .three-col-layout article h2,
+    .section-split .side-articles article h2,
+    .five-articles-small-column article h2,
+    .five-articles-main-article h2 {
         font-size: 16px;
         line-height: 1.25;
     }
+
 
 
     .footer-header {
@@ -1136,3 +1314,171 @@ hr.divider-heavy {
         min-width: 140px;
     }
 }
+
+.covers-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+}
+
+.covers-section > :first-child{
+    margin-bottom: 0;
+}
+
+.covers-section h3,
+.covers-section p{
+    transform: skew(-15deg);
+}
+
+.covers-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.covers-link::before,
+.covers-link::after {
+    content: '';
+    flex: 1;
+    border-top: 3px solid var(--color-black);
+}
+
+.covers-link h2 {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.horoscopes-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.horoscopes-title {
+    width: 100%;
+}
+
+.horoscopes-title .divider-heavy {
+    margin: 0 0 6px;
+}
+
+.horoscopes-title .divider-light {
+    margin: 6px 0 0;
+}
+
+.horoscopes-section h1{
+    color: var(--color-red);
+    font-size: 18px;
+    
+}
+
+.horoscopes-section > h2 {
+    font-size: 24px;
+}
+
+.horoscopes-section p {
+    color: #565656;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 8px;
+}
+
+.trending-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid var(--color-black);
+    padding: 12px;
+}
+
+.trending-title {
+    display: inline-block;
+}
+
+.trending-title h1 {
+    display: inline-block;
+    font-style: italic;
+    font-size: 18px;
+    margin: 0;
+    padding: 8px 12px 0;
+    border-bottom: 8px solid var(--color-red);
+}
+
+.trending-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trending-image-wrap {
+    position: relative;
+}
+
+.trending-image-wrap img {
+    width: 100%;
+}
+
+.trending-count {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    font-weight: 700;
+    padding: 6px 10px;
+}
+
+.trending-item h2 {
+    font-size: 16px;
+}
+
+.trending-section .divider-light {
+    margin: 6px 0;
+    letter-spacing: -0.45;
+}
+
+@media (max-width: 500px) {
+    .top-header {
+        height: 45px;
+    }
+    .covers-link::before,
+    .covers-link::after {
+        border-top-width: 4px;
+    }
+
+    .covers-link h2 {
+        font-size:11px;
+    }
+
+    .horoscopes-section h1 {
+        font-size: 15px;
+    }
+
+    .horoscopes-section h2 {
+        font-size: 21px;
+    }
+
+    .horoscopes-section p {
+        font-size: 14px;
+    }
+
+    .trending-item h2 {
+        font-size: 12px;
+    }
+}
+
+
