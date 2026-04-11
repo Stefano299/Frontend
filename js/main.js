@@ -1,5 +1,5 @@
-const topHeader = document.querySelector('.top-header');
-const sidebar = document.querySelector('.right-sidebar');
+const topHeader = document.querySelector('#top-header');
+const sidebar = document.querySelector('#right-sidebar');
 const sidebarItems = [];
 
 if (sidebar) {
