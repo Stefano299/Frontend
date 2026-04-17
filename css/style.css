@@ -1091,7 +1091,7 @@ hr.divider-heavy {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   :root {
     --font-size-3xl: 30px;
     --font-size-4xl: 32px;
@@ -1154,7 +1154,7 @@ hr.divider-heavy {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   :root {
     --font-size-xs: 10px;
     --font-size-sm: 12px;
@@ -1259,7 +1259,7 @@ hr.divider-heavy {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   :root {
     --font-size-base: 12px;
     --font-size-md: 14px;
@@ -1446,12 +1446,11 @@ hr.divider-heavy {
     flex: 1 1 calc(50% - 20px);
     min-width: 140px;
   }
-}
 
-@media (max-width: 500px) {
   #top-header {
     height: 45px;
   }
+  
   .covers-link::before,
   .covers-link::after {
     border-top-width: 4px;
