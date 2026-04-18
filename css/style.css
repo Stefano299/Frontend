@@ -9,7 +9,7 @@
   --font-size-3xl: 32px;
   --font-size-4xl: 36px;
   --font-size-5xl: 40px;
-  --font-size-6xl: 46px;
+  --font-size-6xl: 70px;
 
   --color-red: #cc0000;
   --color-black: #000000;
@@ -118,7 +118,7 @@ ul {
 }
 
 .title-item h3 {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   line-height: 1.15;
   letter-spacing: -0.45px;
   font-weight: 700;
@@ -149,11 +149,12 @@ ul {
   border-top: 3px solid var(--color-black);
 }
 
-.covers-link h2 {
+.covers-link h2,
+.covers-link h4 {
   margin: 0;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   line-height: 1;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -515,10 +516,11 @@ hr.divider-heavy {
 .link-see-all {
   color: var(--color-black);
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 700;
   background-color: var(--color-white);
   padding-left: 15px;
   margin-left: auto;
+  font-size: var(--font-size-sm);
 }
 
 .ad-text {
@@ -756,9 +758,9 @@ hr.divider-heavy {
 
 .main-story h1 {
   color: var(--color-red);
-  font-style: italic;
-  font-size: var(--font-size-5xl);
-  margin-bottom: 10px;
+  font-size: var(--font-size-6xl);
+  font-weight: 800;
+  margin-bottom: -5px;
 }
 
 .main-story img {
@@ -864,7 +866,7 @@ hr.divider-heavy {
 
 .rectangle-article h3 {
   margin-top: 10px;
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-base);
   line-height: 20px;
   letter-spacing: -0.18px;
   font-weight: 700;
@@ -905,7 +907,7 @@ hr.divider-heavy {
   margin-bottom: 0;
 }
 
-#covers-section h3,
+#covers-section h4,
 #covers-section p {
   transform: skew(-15deg);
 }
@@ -1096,7 +1098,7 @@ hr.divider-heavy {
     --font-size-3xl: 30px;
     --font-size-4xl: 32px;
     --font-size-5xl: 36px;
-    --font-size-6xl: 40px;
+    --font-size-6xl: 60px;
   }
 
   #top-header > :last-child {
@@ -1166,7 +1168,7 @@ hr.divider-heavy {
     --font-size-3xl: 26px;
     --font-size-4xl: 28px;
     --font-size-5xl: 30px;
-    --font-size-6xl: 34px;
+    --font-size-6xl: 50px;
   }
 
   #top-header {
@@ -1269,7 +1271,7 @@ hr.divider-heavy {
     --font-size-3xl: 24px;
     --font-size-4xl: 26px;
     --font-size-5xl: 28px;
-    --font-size-6xl: 30px;
+    --font-size-6xl: 45px;
   }
 
   .badge-post-sports {
