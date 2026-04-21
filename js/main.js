@@ -89,3 +89,25 @@ function onScroll() {
 updateSidebarStickyItem();
 window.addEventListener('scroll', onScroll, { passive: true });
 window.addEventListener('resize', updateSidebarStickyItem);
+
+// Show dropdwon sections
+const btnSections = document.querySelector('.btn-sections');
+const sectionsDropdown = document.getElementById('sections-dropdown');
+
+if (btnSections && sectionsDropdown) {
+    btnSections.addEventListener('click', function(event) {
+        event.stopPropagation();
+        sectionsDropdown.classList.toggle('show');
+        btnSections.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+    });
+
+    // Disappears if user clicks outside of it
+    document.addEventListener('click', function(event) {
+        if (!sectionsDropdown.contains(event.target) && sectionsDropdown.classList.contains('show')) {
+            sectionsDropdown.classList.remove('show');
+            btnSections.classList.remove('active');
+            document.body.classList.remove('menu-open');
+        }
+    });
+}
