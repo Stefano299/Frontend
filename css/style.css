@@ -732,7 +732,7 @@ hr.divider-heavy {
   justify-content: space-between;
   align-items: center;
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 0 auto 50px;;
   border-bottom: 1px solid var(--color-border-light);
   position: relative;
 }
@@ -812,7 +812,7 @@ hr.divider-heavy {
   color: var(--color-red);
   font-size: var(--font-size-5xl);
   font-weight: 800;
-  margin-bottom: -5px;
+  margin: -20px 0px -5px 0px;
 }
 
 .main-story img {
