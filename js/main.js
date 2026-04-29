@@ -1,5 +1,5 @@
-const topHeader = document.querySelector('#top-header');
-const sidebar = document.querySelector('#right-sidebar');
+const topHeader = document.querySelector('[data-js="top-header"]');
+const sidebar = document.querySelector('[data-js="right-sidebar"]');
 const sidebarItems = [];
 
 if (sidebar) {
@@ -20,13 +20,13 @@ function updateHeaderVisibility() {
     const scrollingDown = currentScrollY > lastScrollY;
 
     if (scrollingDown && currentScrollY > 400) {
-        topHeader.classList.add('top-header-hidden');
+        topHeader.classList.add('top-header--hidden');
     } else {
-        topHeader.classList.remove('top-header-hidden');
+        topHeader.classList.remove('top-header--hidden');
         if (currentScrollY > 0 && currentScrollY > 400) {
-            topHeader.classList.add('is-shrunk');
+            topHeader.classList.add('top-header--shrunk');
         } else {
-            topHeader.classList.remove('is-shrunk');
+            topHeader.classList.remove('top-header--shrunk');
         }
     }
 
@@ -39,7 +39,7 @@ function updateSidebarStickyItem() {
     
     if (!isDesktopSidebar()) {
         sidebarItems.forEach((item) => {
-            item.classList.remove('aside-item-active');
+            item.classList.remove('aside-item--active');
             item.style.transform = 'translateY(0)';
         });
         return;
@@ -61,9 +61,9 @@ function updateSidebarStickyItem() {
         item.style.transform = 'translateY(0)';
 
         if (index === activeIndex) {
-            item.classList.add('aside-item-active');
+            item.classList.add('aside-item--active');
         } else {
-            item.classList.remove('aside-item-active');
+            item.classList.remove('aside-item--active');
         }
     });
 
@@ -91,23 +91,23 @@ window.addEventListener('scroll', onScroll, { passive: true });
 window.addEventListener('resize', updateSidebarStickyItem);
 
 // Show dropdwon sections
-const btnSections = document.querySelector('.btn-sections');
-const sectionsDropdown = document.getElementById('sections-dropdown');
+const btnSections = document.querySelector('[data-js="btn-sections"]');
+const sectionsDropdown = document.querySelector('[data-js="sections-dropdown"]');
 
 if (btnSections && sectionsDropdown) {
     btnSections.addEventListener('click', function(event) {
         event.stopPropagation();
-        sectionsDropdown.classList.toggle('show');
-        btnSections.classList.toggle('active');
-        document.body.classList.toggle('menu-open');
+        sectionsDropdown.classList.toggle('sections-dropdown--show');
+        btnSections.classList.toggle('btn-sections--active');
+        document.body.classList.toggle('body--menu-open');
     });
 
     // Disappears if user clicks outside of it
     document.addEventListener('click', function(event) {
-        if (!sectionsDropdown.contains(event.target) && sectionsDropdown.classList.contains('show')) {
-            sectionsDropdown.classList.remove('show');
-            btnSections.classList.remove('active');
-            document.body.classList.remove('menu-open');
+        if (!sectionsDropdown.contains(event.target) && sectionsDropdown.classList.contains('sections-dropdown--show')) {
+            sectionsDropdown.classList.remove('sections-dropdown--show');
+            btnSections.classList.remove('btn-sections--active');
+            document.body.classList.remove('body--menu-open');
         }
     });
 }

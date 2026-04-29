@@ -61,6 +61,22 @@ ul {
 
 /* UTILITIES */
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 8px 16px;
+  z-index: 1000;
+  font-weight: 700;
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 .text-red {
   color: var(--color-red);
 }
@@ -149,7 +165,7 @@ ul {
   border-top: 3px solid var(--color-black);
 }
 
-.covers-link h2,
+.covers-link h5,
 .covers-link h4 {
   margin: 0;
   font-size: var(--font-size-sm);
@@ -642,15 +658,15 @@ hr.divider-heavy {
   transition: transform 0.25s ease;
 }
 
-#top-header.top-header-hidden {
+#top-header.top-header--hidden {
   transform: translateY(-100%);
 }
 
-#top-header.is-shrunk {
+#top-header.top-header--shrunk {
   height: 50px;
 }
 
-#top-header.is-shrunk img.main-logo {
+#top-header.top-header--shrunk img.main-logo {
   height: 40px;
   width: auto;
 }
@@ -745,12 +761,12 @@ hr.divider-heavy {
   transition: background-color var(--transition-fast), color var(--transition-fast);
 }
 
-.btn-sections.active {
+.btn-sections--active {
   background-color: var(--color-white);
   color: var(--color-black);
 }
 
-.btn-sections.active .hamburger span {
+.btn-sections--active .hamburger span {
   background-color: var(--color-black);
 }
 
@@ -907,7 +923,7 @@ hr.divider-heavy {
   width: 100%;
 }
 
-#right-sidebar > .aside-item-active {
+#right-sidebar > .aside-item--active {
   position: sticky;
   top: 12px;
 }
@@ -1114,7 +1130,7 @@ body::after {
   z-index: 90;
 }
 
-body.menu-open::after {
+.body--menu-open::after {
   display: block;
 }
 
@@ -1132,7 +1148,7 @@ body.menu-open::after {
   z-index: 200;
 }
 
-#sections-dropdown.show {
+#sections-dropdown.sections-dropdown--show {
   display: flex;
   flex-direction: column;
 }
@@ -1291,7 +1307,7 @@ body.menu-open::after {
     align-items: stretch;
   }
 
-  #right-sidebar > .aside-item-active {
+  #right-sidebar > .aside-item--active {
     position: static;
     transform: none;
   }
@@ -1520,7 +1536,7 @@ body.menu-open::after {
     gap: 30px;
   }
 
-  #right-sidebar > .aside-item-active {
+  #right-sidebar > .aside-item--active {
     position: static;
   }
 
