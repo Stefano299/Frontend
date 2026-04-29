@@ -1425,25 +1425,8 @@ body::after {
   }
 
   #top-promo {
-    flex-direction: column;
-    gap: 15px;
-  }
-  .promo-item {
-    border-bottom: 1px solid var(--color-black);
-    padding-bottom: 5px;
-    margin-top: -8px;
-  }
-
-  #top-promo > a:last-of-type {
-    border-bottom: 0px solid var(--color-black);
-    margin-bottom: -10px;
-  }
-
-  .promo-divider {
     display: none;
   }
-
-
   .three-col-layout {
     flex-direction: column;
     gap: 14px;
