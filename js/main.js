@@ -11,7 +11,7 @@ if (sidebar) {
 let lastScrollY = window.scrollY;
 
 function isDesktopSidebar() {
-    return window.innerWidth > 1000;
+    return window.innerWidth > 992;
 }
 function updateHeaderVisibility() {
     if (!topHeader) return;
@@ -23,7 +23,7 @@ function updateHeaderVisibility() {
         topHeader.classList.add('top-header--hidden');
     } else {
         topHeader.classList.remove('top-header--hidden');
-        if (currentScrollY > 0 && currentScrollY > 400) {
+        if (currentScrollY > 400) {
             topHeader.classList.add('top-header--shrunk');
         } else {
             topHeader.classList.remove('top-header--shrunk');
@@ -90,7 +90,7 @@ updateSidebarStickyItem();
 window.addEventListener('scroll', onScroll, { passive: true });
 window.addEventListener('resize', updateSidebarStickyItem);
 
-// Show dropdwon sections
+// Show dropdown sections
 const btnSections = document.querySelector('[data-js="btn-sections"]');
 const sectionsDropdown = document.querySelector('[data-js="sections-dropdown"]');
 
