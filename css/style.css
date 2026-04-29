@@ -302,7 +302,7 @@ hr.divider-heavy {
   border: 2px solid var(--color-black);
   padding: 3px 25px;
   transform: skew(-15deg);
-  box-shadow: 4px 4px 0 var(--color-black);
+  box-shadow: -4px 4px 0 var(--color-black);
 }
 
 .centered-badge-divider .badge h2 {
@@ -343,7 +343,7 @@ hr.divider-heavy {
   border: 3px solid var(--color-white);
   padding: 5px 20px;
   transform: skew(-15deg);
-  box-shadow: 3px 3px 0 var(--color-black);
+  box-shadow: -3px 3px 0 var(--color-black);
 }
 
 .left-badge-divider .badge-black h2 {
@@ -444,7 +444,7 @@ hr.divider-heavy {
   transform: translateX(-50%) skew(-15deg);
   background-color: var(--color-white);
   border: 2px solid var(--color-black);
-  box-shadow: 4px 4px 0 var(--color-black);
+  box-shadow: -4px 4px 0 var(--color-black);
   padding: 4px 20px;
 }
 
@@ -463,7 +463,7 @@ hr.divider-heavy {
   border: 2px solid var(--color-black);
   padding: 5px 15px;
   transform: skew(-15deg);
-  box-shadow: 4px 4px 0 var(--color-black);
+  box-shadow: -4px 4px 0 var(--color-black);
   margin-right: 20px;
 }
 
@@ -474,7 +474,7 @@ hr.divider-heavy {
   border: 2px solid var(--color-black);
   padding: 3px 20px;
   transform: skew(-15deg);
-  box-shadow: 6px 6px 0 var(--color-black);
+  box-shadow: -6px 6px 0 var(--color-black);
   margin-right: 20px;
   margin-bottom: 10px;
 }
@@ -487,7 +487,7 @@ hr.divider-heavy {
   font-weight: 900;
   transform: skew(15deg);
   text-transform: uppercase;
-  text-shadow: 4px 4px 0 var(--color-black);
+  text-shadow: -4px 4px 0 var(--color-black);
   margin: 0;
 }
 
@@ -1386,27 +1386,18 @@ body::after {
   .five-articles-main-article article {
     position: relative;
     padding-left: 136px;
-    min-height: 80px;
+    min-height: 93px;
     padding-bottom: 12px;
-    border-bottom: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-black);
   }
 
   .five-articles-main-article article:last-child,
   .five-articles-small-column article:last-child {
     border-bottom: 0;
     padding-bottom: 0;
+    min-height: 80px;
   }
 
-  .five-articles-main-article article::before,
-  .five-articles-small-column article::before {
-    content: "";
-    position: absolute;
-    left: 126px;
-    top: 6px;
-    bottom: 6px;
-    width: 1px;
-    background-color: var(--color-black);
-  }
 
   .five-articles-main-article article img,
   .five-articles-small-column article img {
@@ -1471,11 +1462,11 @@ body::after {
 
   .badge-post-sports {
     padding: 2px 12px;
-    box-shadow: 3px 3px 0 var(--color-black);
+    box-shadow: -3px 3px 0 var(--color-black);
   }
 
   .badge-post-sports h2 {
-    text-shadow: 2px 2px 0 var(--color-black);
+    text-shadow: -2px 2px 0 var(--color-black);
   }
 
   #top-nav {
@@ -1593,26 +1584,16 @@ body::after {
   .section-split .side-articles article {
     position: relative;
     padding-left: 136px;
-    min-height: 80px;
+    min-height: 93px;
     padding-bottom: 12px;
-    border-bottom: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-black);
   }
 
   .three-col-layout article:last-child,
   .section-split .side-articles article:last-child {
     border-bottom: 0;
     padding-bottom: 0;
-  }
-
-  .three-col-layout article::before,
-  .section-split .side-articles article::before {
-    content: "";
-    position: absolute;
-    left: 126px;
-    top: 6px;
-    bottom: 6px;
-    width: 1px;
-    background-color: var(--color-black);
+    min-height: 80px;
   }
 
   .three-col-layout article img,
