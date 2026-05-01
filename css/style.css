@@ -24,6 +24,7 @@
   --color-gray-medium: #565656;
   --color-gray-light: #666666;
   --color-yellow: #ffd62b;
+  --color-dark-yellow: #f0c22c;
   --color-border-dark: #dddddd;
 }
 
@@ -86,6 +87,13 @@ ul {
 
 .red-arrow {
   color: var(--color-red);
+  font-weight: 900;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.yellow-arrow {
+  color: var(--color-dark-yellow);
   font-weight: 900;
   margin-right: 3px;
   display: inline-block;
@@ -506,6 +514,56 @@ hr.divider-heavy {
   text-shadow: -4px 4px 0 var(--color-black);
   margin: 0;
 }
+
+.badge-page-six-hollywood {
+  position: relative;
+  z-index: 2;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  padding: 3px 20px;
+  transform: skew(-15deg);
+  box-shadow: -6px 6px 0 var(--color-black);
+  margin-right: 20px;
+  margin-bottom: 10px;
+  word-spacing: -3px;
+}
+
+.badge-page-six-hollywood h2 {
+  transform: skew(15deg);
+  margin: 0;
+}
+
+.badge-page-six-hollywood .pagesix {
+  color: var(--color-black);
+  font-size: var(--font-size-4xl);
+  font-weight: 900;
+  margin: 0;
+}
+
+.badge-page-six-hollywood .hollywood {
+  color: var(--color-dark-yellow);
+  font-size: var(--font-size-4xl);
+  font-weight: 400;
+  margin: 0;
+}
+
+.page-six-hollywood-container {
+  padding: 25px 20px;
+  background-color: #35230e;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin: -12px 0px 0px;
+}
+
+.page-six-hollywood-container h2 {
+  color: var(--color-white);
+}
+
+.page-six-hollywood-container .vertical-divider {
+  background-color: var(--color-gray-light);
+}
+
+
 
 .badge-opinion h2 {
   color: var(--color-red);
@@ -957,6 +1015,137 @@ hr.divider-heavy {
   transform: skew(-15deg);
 }
 
+#post-sports-plus-section {
+  background-color: var(--color-yellow);
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0 20px;
+  text-align: center;
+}
+
+.post-sports-plus-header {
+  padding: 0 20px;
+}
+
+.post-sports-plus-header h2 {
+  font-family: var(--font-main);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  margin-bottom: 10px;
+  color: var(--color-white);
+  text-shadow: -4px 4px 0 var(--color-black);
+}
+
+.post-sports-plus-header p {
+  font-size: var(--font-size-md);
+  font-weight: 800;
+  margin: 10px 0 15px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.try-it-link {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-black);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.black-arrow {
+  color: var(--color-black);
+  font-weight: 900;
+  margin-left: 3px;
+  display: inline-block;
+  font-size: var(--font-size-sm);
+}
+
+.post-sports-plus-content {
+  background-color: var(--color-white);
+  margin: 20px 20px;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-sports-author {
+  text-align: left;
+}
+
+.author-header {
+  position: relative;
+  padding-top: 25px;
+}
+
+.author-divider-heavy {
+  border: none;
+  border-top: 6px solid var(--color-black);
+  margin: 0;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.author-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 76px;
+  height: 70px;
+}
+
+.author-name {
+  display: block;
+  color: var(--color-red);
+  font-weight: 800;
+  font-size: var(--font-size-base);
+  margin-top: 15px;
+  margin-bottom: 5px;
+  letter-spacing: -0.5px;
+}
+
+.post-sports-author h3 {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-black);
+}
+
+.post-sports-plus-footer {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.try-it-btn {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  font-size: var(--font-size-md);
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 75%;
+  text-align: center;
+}
+
+.post-sports-plus-footer p {
+  font-size: var(--font-size-sm);
+  font-weight: 800;
+}
+
+.post-sports-plus-footer p a {
+  color: var(--color-black);
+}
+
 #horoscopes-section {
   display: flex;
   flex-direction: column;
@@ -1304,6 +1493,10 @@ body::after {
   .footer-header {
     flex-direction: column;
     gap: 10px;
+  }
+
+  #post-sports-plus-section{
+    display: none;
   }
 }
 
