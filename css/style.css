@@ -447,6 +447,10 @@ hr.divider-heavy {
   padding: 4px 20px;
 }
 
+.side-rectangle-content img {
+  margin-top: 20px;
+}
+
 .side-rectangle-badge h2 {
   color: var(--color-red);
   font-style: italic;
@@ -458,7 +462,7 @@ hr.divider-heavy {
 }
 
 .side-rectangle-footer .link-see-more {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   color: var(--color-red);
   text-decoration: none;
   font-weight: 900;
@@ -556,35 +560,9 @@ hr.divider-heavy {
   margin-left: auto;
 }
 
-.ad-text {
-  display: block;
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-medium);
-  margin-top: 8px;
-  text-transform: uppercase;
-}
-
-.ad-text-sidebar {
-  display: block;
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-medium);
-  margin-top: 5px;
-}
-
-.ad-container {
-  background-color: var(--color-border-light);
-  padding: 20px;
-  text-align: center;
-}
-
-.ad-banner img {
-  margin: 0 auto;
-}
-
-.sidebar-advertisement {
-  text-align: center;
-  background-color: var(--color-border-light);
-  padding: 15px;
+.ad-banner {
+  height: auto;
+  margin-bottom: 20px;
 }
 
 /* LAYOUT */
@@ -653,12 +631,12 @@ hr.divider-heavy {
 /* HEADER AND NAVBAR */
 
 #top-header {
-  background-color: var(--color-red);
   color: var(--color-white);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
+  background-color: var(--color-red);
   height: 85px;
   position: sticky;
   top: 0;
@@ -682,6 +660,7 @@ hr.divider-heavy {
 .left-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
   position: relative;
 }
@@ -713,8 +692,22 @@ hr.divider-heavy {
   padding: 10px 20px;
   font-size: var(--font-size-sm);
   font-weight: 900;
-  position: relative;
+  position: sticky;
+  top: 85px;
   height: 36px;
+  z-index: 99;
+  transition:
+    top 0.25s ease,
+    transform 0.25s ease;
+}
+
+#top-nav.top-nav--shrunk {
+  top: 50px;
+}
+
+#top-nav.top-nav--hidden {
+  top: 0;
+  transform: translateY(-100%);
 }
 
 .nav-links {
@@ -732,7 +725,7 @@ hr.divider-heavy {
   justify-content: space-between;
   align-items: center;
   max-width: var(--max-width);
-  margin: 0 auto 50px;;
+  margin: 0 auto 50px;
   border-bottom: 1px solid var(--color-border-light);
   position: relative;
 }
@@ -1346,12 +1339,16 @@ body::after {
     padding: 5px 10px;
     height: 60px;
   }
+  #top-nav {
+    top: 60px;
+  }
   .left-nav {
     gap: 5px;
   }
   .main-logo {
     max-width: 45vw;
-    height: auto;
+    height: 32px;
+    margin: auto;
   }
   .text-sections {
     display: none;
@@ -1462,6 +1459,8 @@ body::after {
 
   #top-nav {
     font-size: var(--font-size-sm);
+    padding: 0px 0px 6px 0px;
+    top: 45px;
   }
 
   .nav-links {
@@ -1478,10 +1477,6 @@ body::after {
 
   .nav-links a:hover {
     text-decoration: underline var(--color-red);
-  }
-
-  #top-nav {
-    padding: 0px 0px 6px 0px;
   }
 
   .header-slogan {

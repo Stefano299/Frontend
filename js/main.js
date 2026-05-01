@@ -1,4 +1,5 @@
 const topHeader = document.querySelector('[data-js="top-header"]');
+const topNav = document.querySelector('[data-js="top-nav"]');
 const sidebar = document.querySelector('[data-js="right-sidebar"]');
 const sidebarItems = [];
 
@@ -15,18 +16,23 @@ function isDesktopSidebar() {
 }
 function updateHeaderVisibility() {
   if (!topHeader) return;
+  if (!topNav) return;
 
   const currentScrollY = window.scrollY;
   const scrollingDown = currentScrollY > lastScrollY;
 
   if (scrollingDown && currentScrollY > 400) {
     topHeader.classList.add("top-header--hidden");
+    topNav.classList.add("top-nav--hidden");
   } else {
     topHeader.classList.remove("top-header--hidden");
+    topNav.classList.remove("top-nav--hidden");
     if (currentScrollY > 400) {
       topHeader.classList.add("top-header--shrunk");
+      topNav.classList.add("top-nav--shrunk");
     } else {
       topHeader.classList.remove("top-header--shrunk");
+      topNav.classList.remove("top-nav--shrunk");
     }
   }
 
