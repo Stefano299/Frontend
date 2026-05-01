@@ -18,7 +18,7 @@
 
   --font-main: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  --max-width: 1064px;
+  --max-width: 1088px;
   --transition-fast: 0.2s ease;
   --color-gray-dark: #333333;
   --color-gray-medium: #565656;
@@ -605,7 +605,7 @@ hr.divider-heavy {
 #main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 35px 12px;
 }
 
 .top-content-layout {
@@ -1224,9 +1224,6 @@ body::after {
 /* MEDIA QUERIES */
 
 @media (max-width: 1199px) {
-  #main {
-    padding: 20px 12px;
-  }
   .main-column {
     max-width: none;
     min-width: 0;
@@ -1484,7 +1481,7 @@ body::after {
   }
 
   #main {
-    padding: 20px 15px;
+    padding: 40px 12px;
   }
 
   .top-content-layout,
